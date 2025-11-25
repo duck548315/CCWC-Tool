@@ -1,0 +1,37 @@
+#Byte-compiled files
+pycache/
+*.py[cod]
+*$py.class
+
+#C++ extensions
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+#Environments
+.venv
+venv/
+ENV/
+env/
+
+#Editor settings
+.vscode/
+.idea/
+
+#Your test file
+test.txt
+*.log

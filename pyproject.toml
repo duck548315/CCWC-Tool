@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ccwc"
+version = "0.0.1"
+description = "My own version of wc tool"
+readme = "README.md"
+requires-python = ">=3.7"
+authors = [
+    { name = "Nullsky", email = "duck548315@gmail.com" },
+]
+
+urls = { Homepage = "https://github.com/duck548315/CCWC-Tool.git" }
+
+dependencies = [
+    "requests>=2.0",
+]
+
+[project.scripts]
+ccwc = "ccwc:main"
+
+[tool.setuptools]
+py-modules = ["ccwc"]
